@@ -10,5 +10,4 @@ window.onload = function() {
             event.preventDefault(); // 유효하지 않다면 폼 제출을 막는다
         }
     }
-
 }
