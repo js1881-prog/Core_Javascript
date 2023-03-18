@@ -11,5 +11,5 @@ console.log(pattern.test(text)); // true, 일치하는 reg타입
 console.log(text.search(pattern)); // 9, 첫번째로 일치하는 부분의 위치
 console.log(text.match(pattern)); // ["1", "2", "3"] 일치하는 부분이 모두 포함된 배열
 console.log(text.replace(pattern, "#")); // testing: #, #, #
-console.log(text.split(/\D+/)); //["""", "1", "2", "3"] , 숫자가 아닌것에서 나눕니다.
+console.log(text.split(/\D+/)); //["", "1", "2", "3"] , 숫자가 아닌것에서 나눕니다.
 
