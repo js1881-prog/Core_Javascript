@@ -38,3 +38,7 @@ console.log(rest) // ["e", "l", "l", "o"]
 // const sin = Math.sin, const cos = Math.cos
 const {sin, cos, tan} = Math;
 console.log(sin, cos , tan);
+
+// const cosine = Math.cos, tangent = Math.tan
+const { cos: cosine, tan: tangent} = Math;
+
