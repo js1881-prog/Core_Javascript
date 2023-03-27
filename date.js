@@ -9,3 +9,7 @@ console.log(timestamp);
 console.log(now);
 console.log(ms);
 console.log(iso);
+
+let a ="123";
+let b = [1, 2, 3];
+console.log(a.length === b.length); // true
