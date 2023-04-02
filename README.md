@@ -1,4 +1,4 @@
-# Examples
+# Core_Javascript ES6 
 ------
 
 * var - let - const differences
