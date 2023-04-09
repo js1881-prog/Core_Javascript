@@ -21,4 +21,3 @@ console.log(target); // {x: 1, y: 2, z: 3}
 
 let o2 = Object.assign({}, o, o1);
 console.log(o2);
-

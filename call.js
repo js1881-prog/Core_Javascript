@@ -3,4 +3,4 @@ var func = function(a, b, c) {
 };
 
 func(1, 2, 3); // Window{ ... } 1 2 3
-func.call({x: 1}, 4, 5, 6);
+console.log(func.call({x: 1}, 4, 5, 6));
